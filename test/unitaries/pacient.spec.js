@@ -74,7 +74,7 @@ it('modifica la data amb un objecte Date', function () {
     expect(() => new Pacient('Laia', 'Ferrer Soler', dataFutura))
       .to.throw();
   });
-  it('comprova que el workflow detecta errors', function () {
+  /*it('comprova que el workflow detecta errors', function () {
   expect(1).to.equal(2);
-});
+});*/
 });
